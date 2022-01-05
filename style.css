@@ -78,6 +78,8 @@ body {
 
 /* css used in first part ends here */
 
+
+/* css used in second part starts here */
 .second-part {
     height: 100vh;
 }
@@ -113,5 +115,31 @@ body {
 .card h3 {
     font-size: 26px;
     font-weight: 700;
-    /* margin-left: 50px; */
+   
 }
+
+/* css used in second part ends here */
+
+
+/* css used in third part starts here */
+.third-part {
+    height: 100vh;
+    margin: 100px 150px;
+}
+.third-part-img img{
+    width: 80%;
+}
+
+.third-part-texts h1{
+    font-size: 45px;
+}
+
+.third-part-texts p{
+    font-size: 25px;
+}
+.third-part-texts a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* css used in third part ends here */
