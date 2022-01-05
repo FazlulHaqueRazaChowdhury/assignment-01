@@ -1,7 +1,7 @@
 * {
     margin: 0%;
-    
     padding: 0%;
+    scroll-behavior: smooth;
 }
 body {
     margin: 40px 60px;
@@ -17,7 +17,14 @@ body {
 .half-width {
     width: 40%;
 }
+.center {
+    text-align: center;
+}
 
+/* css used in first part */
+.first-part {
+    height: 100vh;
+}
 .heading-text {
     position: relative;
     margin-top: 150px;
@@ -67,4 +74,44 @@ body {
     margin-top: 90px;
     height: 500px;
     margin-left: 450px;
+}
+
+/* css used in first part ends here */
+
+.second-part {
+    height: 100vh;
+}
+.second-part-heading {
+
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+#card1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#card2{
+    background-color: rgba(255, 89, 89, 0.1);
+
+}
+#card3{
+    background-color: rgba(255, 244, 214, 1);
+
+}
+.card {
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: justify;
+    border-radius: 15px;
+    width: 20%;
+    padding: 60px 50px;
+}
+.card img {
+    width: 350px;
+    height: auto;
+}
+.card h3 {
+    font-size: 26px;
+    font-weight: 700;
+    /* margin-left: 50px; */
 }
