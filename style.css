@@ -25,25 +25,20 @@ body {
 .first-part {
     height: 100vh;
 }
+.heading-text h1 {
+    display: inline-block;
+    height: 50px;
+}
 .heading-text {
-    position: relative;
+    
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 130px;
     font-family: 'Yeseva One' !important;
     font-size: 42px;
     padding: 20px;
-   
-  
-}
-.heading-text::before {
-    content: '';
-    height: 65%;
     border-left: 5px solid;
-    border-image: linear-gradient(orange,rgba(255, 166, 0, 0.541));
+    border-image: linear-gradient(orange,rgba(235, 156, 9, 0.445));
     border-image-slice: 1;
-    position: absolute;
-    right: 560px;
-    top: 31px;
 }
 .para-part {
     font-size: 1.3rem;
@@ -152,6 +147,15 @@ body {
 }
 
 /* css used in third part ends here */
+
+/* css used in fourth starts here */
+.fourth-part{
+    height: 100vh;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 1255px 346px;
+}
 .fourth-part-texts{
     margin-top: 50px;
     margin-left: 100px;
@@ -174,3 +178,62 @@ body {
     display: inline-block;
     margin-top: 10px;
 }
+/* css used in fourth part ends here */
+
+/* css used in fifth part ends here */
+.fifth-part{
+    height: 100vh;
+    
+}
+.fifth-part-heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.fifth-part-img{
+    padding: 100px 200px;
+    width: 50%;
+}
+.fifth-part-texts{
+    width: 50%;
+    padding: 50px;
+}
+.fifth-part-texts h1{
+    font-size: 45px;
+}
+.fifth-part-texts p {
+    font-size: 35px;
+}
+.fifth-part-texts a{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.fifth-main{
+    margin-top: 150px;
+}
+
+/* css used in fifth part ends here */
+
+
+/*footer starts here*/
+
+footer {
+    background-color: black;
+    height: 30vh;
+    font-family: 'Lobster';
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 100px;
+}
+footer small {
+    font-family: 'Poppins' !important;
+    color: gray;
+    font-size: 15px;
+}
+/*footer ends here*/
