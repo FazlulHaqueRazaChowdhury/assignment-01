@@ -152,3 +152,25 @@ body {
 }
 
 /* css used in third part ends here */
+.fourth-part-texts{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+}
+.fourth-part-texts h1{
+    font-size: 50px;
+}
+.fourth-part-texts p {
+    font-size: 35px;
+}
+.fourth-part-img{
+    width: 50%;
+}
+.fourth-part-img img {
+    padding: 0px 50px;
+    width: 90%;
+}
+.fourth-part-texts a {
+    display: inline-block;
+    margin-top: 10px;
+}
